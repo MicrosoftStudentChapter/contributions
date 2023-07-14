@@ -20,7 +20,7 @@
 - `git config --global user.signingkey <key-id>`
 - `git config --global commit.gpgsign true` This defaults to sign all your commit messages. Additionally, you can sign individual commits by passing the -S flag to the git commit command.
 - `git config --global gpg.program <location of gpg.exe>` This tells git to use gpg program to sign commits. [IMPORTANT]
-- For windows, location would be `C:\Program Files (x86)\GnuPG\bin\gpg.exe`, for linux, it would be `/usr/bin/gpg`.
+- For windows, check the location with `where.exe gpg` usually the location would be `C:\Program Files (x86)\GnuPG\bin\gpg.exe`, for linux, check the location of `gpg` binary using `which gpg` in your terminal, usually the location would be `/usr/bin/gpg`. 
 
 ### Step 3: Adding GPG Key to GitHub
 
